@@ -14,7 +14,7 @@ public class Task1 {
         System.out.println("Что вы хотите найти? ");
         System.out.println("Если n-ое треугольного числа нажмите 1, если факториал нажмите 2: ");
         int choice = cs.nextInt();
-        cs.close();;
+        cs.close();
         
         if (choice == 1){
             int result = 0;
