@@ -13,7 +13,7 @@ public class Task3 {
         System.out.println("Что вы найти? Введите +, -, * или / ");
         System.out.print(": ");
         String choice = cs.next();
-        cs.close();;
+        cs.close();
 
         int result = 0;
         switch (choice) {
